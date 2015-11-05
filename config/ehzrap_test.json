@@ -1,0 +1,120 @@
+{
+    "corsDomains" : [
+        "corsproxy.com",
+        "programs.communications.gov.au",
+        "www.asris.csiro.au",
+        "dev.tampabaymap.org:8181",
+        "nasa.gov",
+        "whoi.edu",
+	"dev.tampabaymap.org:7002",
+	"pdx.axiomalaska.com",
+	"crow.marine.usf.edu:8080",
+	"hfrnet.ucsd.edu",
+	"noaa.gov",
+	"cwcgom.aoml.noaa.gov",
+	"aoml.noaa.gov",
+	"hycom.org",
+	"ngdc.noaa.gov",
+	"cmgds.marine.usgs.gov",
+	"ghrc.nsstc.nasa.gov",
+	"nsstc.nasa.gov",
+	"nowcoast.noaa.gov",
+	"ingv.it"
+    ],
+    "homeCamera": {
+        "west": -85,
+        "south": 25,
+        "east": -78,
+        "north": 30
+    },
+    "initialViewerMode": "3d",
+    "services": [],
+    "catalog": [
+        {
+            "name": "Test Datasets",
+            "type": "group",
+            "items": [
+                {
+                    "name": "COAWST (THREDDS)",
+                    "type": "wms",
+                    "url": "http://geoport-dev.whoi.edu/thredds/wms/coawst_4/use/fmrc/coawst_4_use_best.ncd",
+                    "layers": "Hwave",
+                    "parameters": {
+                        "COLORSCALERANGE": "0.00,5.00",
+                        "TIME": "2015-10-20T00:00:00.000Z"
+                    }},
+		    {
+                    "name": "WFS FVCOM (sci-wms)",
+                    "type": "wms-getCapabilities",
+                    "url": "http://dev.tampabaymap.org/proxy/dev.tampabaymap.org:7002/wms/datasets/wfsfvcom"
+		    },                                                                                                                                             
+                    {                                                                                                                                               
+                    "name": "WFS FVCOM (pdx-axiom)",                                                                                                                  
+                    "type": "wms-getCapabilities",                                                                                                                                  
+                    "url": "http://dev.tampabaymap.org/proxy/pdx.axiomalaska.com/ncWMS/wms"                                                      
+                    },    
+                    {
+                    "name": "WFS ROMS NF (CROW)",
+                    "type": "wms-getCapabilities",
+                    "url": "http://dev.tampabaymap.org/proxy/crow.marine.usf.edu:8080/thredds/wms/WFS_ROMS_NF_model/USF_Ocean_Circulation_Group_West_Florida_Shelf_Daily_ROMS_Nowcast_Forecast_Model_Data_best.ncd"
+                    },                                                                                                                                              
+                    {                                                                                                                                               
+                    "name": "NOAA AVHRRSSTANOM-THREDDS",                                                                                                                     
+                    "type": "wms-getCapabilities",                                                                                                                                  
+                    "url": "http://dev.tampabaymap.org/proxy/cwcgom.aoml.noaa.gov/thredds/wms/AVHRRSSTANOM/SSTANOM.nc"
+                                                                                                                                                                   
+                    },                                                                                                                                                                                  
+                    {                                                                                                                                                                                   
+                    "name": "NOAA SST AVHRR-ERDAP",                                                                                                                                                        
+                    "type": "wms-getCapabilities",                                                                                                                                                      
+                    "url": "http://dev.tampabaymap.org/proxy/upwell.pfeg.noaa.gov/erddap/wms/noaa_aoml_3267_b656_8e18/request"                                                                                  
+                                                                                                                                                                                                        
+                    },
+                    {
+                    "name": "NOAA SST AVHRR-cascaded",
+                    "type": "wms",
+		    "layers": "geonode:sst",
+                    "url": "http://dev.tampabaymap.org/proxy/dev.tampabaymap.org:8181/geoserver/geonode/wms"
+
+                    },
+                    {
+                    "name": "NOAA SST 5-day-oceanwatch-threads",
+                    "type": "wms-getCapabilities",
+                    "url": "http://dev.tampabaymap.org/proxy/oceanwatch.pfeg.noaa.gov/thredds/wms/satellite/BA/ssta/5day"
+                    
+                    },                                                                                                                                              
+                    {                                                                                                                                               
+                    "name": "WFS SWAN NF",                                                                                                                     
+                    "type": "wms-getCapabilities",                                                                                                                                  
+                    "url": "http://dev.tampabaymap.org/proxy/crow.marine.usf.edu:8080/thredds/wms/WFS_SWAN_NF_model/USF_Ocean_Circulation_Group_West_Florida_Shelf_Daily_SWAN_Nowcast_Forecast_Wave_Model_Data_best.ncd"                                              
+                                                                                                                                                                    
+                    },                                                                                                                                                                                  
+                    {                                                                                                                                                                                   
+                    "name": "NRL HYCOM 1/25 deg model output, Gulf of Mexico, 10.04 Expt 31.0 (2009-Present), At Surface",                                                                                                                                                              
+                    "type": "wms-getCapabilities",                                                                                                                                                      
+                    "url": "http://dev.tampabaymap.org/proxy/upwell.pfeg.noaa.gov/erddap/wms/hycom_gom310S/request"                                                                                                                                                                                  
+                    },                                                                                                                                                                                  
+                    {                                                                                                                                                                                   
+                    "name": "Currents, HF Radar, EC/GM, GNOME, Near-Real Time, Hourly, 1km",                                                                                                                          
+
+                    "type": "wms-getCapabilities",                                                                                                                                                      
+                    "url": "http://dev.tampabaymap.org/proxy/upwell.pfeg.noaa.gov/erddap/wms/ucsdHfrE1/request"                                                                                                          
+
+                    },                                                                                                                                                                                  
+		    {                                                                                                                                                                                   
+                    "name": "MEDSEA",
+		    "type": "wms-getCapabilities",                                                                                                            
+                    "url": "http://dev.tampabaymap.org/proxy/gnoodap.bo.ingv.it/thredds/wms/myov05-med-ingv-tem-an-fc-dm"                                                                    
+                    }, 
+                    {                                                                                                                                                                                   
+                    "name": "NOAA NWS Weather Warning",                                                                                                                          
+                    "type": "wms-getCapabilities",                                                                                                                                                      
+		    "parameters": {                                                                                                                                                                     
+                        "TIME": "2015-10-20T00:00:00.000Z"                                                                                                                                              
+                    },
+                    "url": "http://dev.tampabaymap.org/proxy/http://nowcoast.noaa.gov/arcgis/services/nowcoast/wwa_meteoceanhydro_shortduration_hazards_warnings_time/MapServer/WMSServer"                                                                                                          
+                    }     
+            ]
+        }
+    ]
+}

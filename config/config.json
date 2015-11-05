@@ -1,0 +1,40 @@
+{
+    "proxyDomains" : [
+        "nicta.com.au",
+        "gov.au",
+        "csiro.au",
+        "arcgis.com",
+        "argo.jcommops.org",
+        "www.abc.net.au",
+        "geoserver.aurin.org.au",
+        "mapsengine.google.com",
+        "s3-ap-southeast-2.amazonaws.com",
+        "dev.tampabaymap.org:7002",
+        "pdx.axiomalaska.com",
+        "crow.marine.usf.edu:8080",
+        "hfrnet.ucsd.edu",
+        "nooa.gov",
+        "cwcgom.aoml.noaa.gov",
+        "aoml.noaa.gov",
+        "hycom.org",
+        "ngdc.noaa.gov",
+        "cmgds.marine.usgs.gov",
+        "pfeg.noaa.gov",
+        "ghrc.nsstc.nasa.gov",
+        "nsstc.nasa.gov",
+        "nowcoast.noaa.gov",
+        "ingv.it",
+        "whoi.edu"
+    ],
+    "initializationUrls" : [
+        "ehzrap"
+    ],
+    "parameters": {
+        "bingMapsKey": null,
+        "disclaimer": {
+            "text": "Disclaimer: EHZRAP must not be used for navigation or precise spatial analysis",
+            "url": "About.html"
+        }
+    }
+}
+

@@ -1,0 +1,274 @@
+{
+    "corsDomains" : [
+        "corsproxy.com",
+        "programs.communications.gov.au",
+        "www.asris.csiro.au"
+    ],
+    "homeCamera": {
+        "west": -83.541,
+        "south": 27.233,
+        "east": -81.695,
+        "north": 28.379
+    },
+    "baseMapName": "Positron (Light)",
+    "initialViewerMode": "3d",
+    "services": [],
+    "catalog": [
+        {
+            "name": "Environmental Response Planning",
+            "type": "group",
+            "items": [
+                {
+                    "name": "Coastal Ocean Observing Systems",
+                    "type": "group",
+                    "items": [
+                        {
+                            "name": "GCOOS In-Situ Sensors",
+                            "type": "esri-mapServer-group",
+                            "url": "http://products.gcoos.org/arcgis/rest/services/Stations/GoM_Sensors/MapServer"
+                        },
+                        {
+                            "name": "SECOORA In-Situ Observations and Biological/Habitats",
+                            "type": "esri-mapServer-group",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/Projects_Other/SECOORA_BioHab/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "Weather",
+                    "type": "group",
+                    "items": [
+                        {
+                            "name": "NOAA NWS Doppler Radar Mosaic (updated 5 minutes)",
+                            "type": "esri-mapServer-group",
+                            "url": "http://gis.srh.noaa.gov/arcgis/rest/services/RIDGERadar/MapServer"
+                        },
+                        {
+                            "name": "NOAA NWS Forecast Weather Map",
+                            "type": "esri-mapServer-group",
+                            "url": "http://gis.srh.noaa.gov/arcgis/rest/services/wxmap/MapServer"
+                        },
+                        {
+                            "name": "NOAA NWS National Digital Forecast Database (Temperature)",
+                            "type": "esri-mapServer-group",
+                            "url": "http://gis.srh.noaa.gov/arcgis/rest/services/NDFDTemps/MapServer"
+                        },
+                        {
+                            "name": "NOAA NWS Enterprise GIS Server",
+                            "type": "esri-mapServer-group",
+                            "url": "http://gis.srh.noaa.gov/arcgis/rest/services"
+                        },
+                        {
+                            "name": "NOAA NWS Forecast Weather Map",
+                            "type": "esri-mapServer-group",
+                            "url": "http://gis.srh.noaa.gov/arcgis/rest/services/wxmap/MapServer"
+                        }
+                    ]
+                },       
+                {
+                    "name": "Area Contingency Planning",
+                    "type": "group",
+                    "items": [
+                        {
+                            "name": "US Coast Guard-FWRI Geographic Response Planning",
+                            "type": "esri-mapServer-group",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/Oil_Spill/ACPGRP/MapServer"
+                        },
+                        {
+                            "name": "Florida Shoreline Cleanup Assessment Technique (SCAT)",
+                            "type": "esri-mapServer-group",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/Oil_Spill/FL_SCAT/MapServer"
+                        },
+                        {
+                            "name": "Georgia Shoreline Cleanup Assessment Technique (SCAT)",
+                            "type": "esri-mapServer-group",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/Oil_Spill/GA_SCAT/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "Benthic/Coastal Natural Resources",
+                    "type": "group",
+                    "items": [
+                        {
+                            "name": "FWRI Statewide Seagrass",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/72"
+                        },
+                        {
+                            "name": "FWRI Statewide Saltmarsh",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/70"
+                        },
+                        {
+                            "name": "FWRI Statewide Oysters",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/71"
+                        },
+                        {
+                            "name": "FWRI Statewide Mangroves",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/75"
+                        },
+                        {
+                            "name": "FWRI Statewide Tidal Flats",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/79"
+                        },
+                        {
+                            "name": "FWRI Statewide Corals/Hardbottom",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/73"
+                        },
+                        {
+                            "name": "NOAA AWOIS Wrecks and Obstructions",
+                            "type": "esri-mapServer-group",
+                            "url": "http://maritimeboundaries.noaa.gov/arcgis/rest/services/public_wrecks/Wrecks_And_Obstructions/MapServer"
+                        },
+                        {
+                            "name": "FWRI Marine Resources Enterprise GIS",
+                            "type": "esri-mapServer-group",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer"
+                        },
+                        {
+                            "name": "FWRI Terrestrial Resources Enterprise GIS",
+                            "type": "esri-mapServer-group",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/TRGIS/MapServer"
+                        },
+                        {
+                            "name": "FWRI Florida Wildlife Legacy Initiative (FWLI) GIS",
+                            "type": "esri-mapServer-group",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/FWLI/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "Special Managed Areas",
+                    "type": "group",
+                    "items": [
+                        {
+                            "name": "Marine Protected Areas (MPAs)",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/87"
+                        },
+                        {
+                            "name": "Florida (State) Aquatic Preserves",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/88"
+                        },
+                        {
+                            "name": "Florida Managed Lands (Florida Natural Areas Inventory)",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/124"
+                        }
+                    ]
+                },
+                {
+                    "name": "Administrative Boundaries",
+                    "type": "group",
+                    "items": [
+                        {
+                            "name": "Florida Counties to State Waters Line",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/Counties/MapServer"
+                        },
+                        {
+                            "name": "Regional Planning Councils",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/114"
+                        },
+                        {
+                            "name": "MarineCadastre.org Maritime Boundaries",
+                            "type": "esri-mapServer-group",
+                            "url": "http://maritimeboundaries.noaa.gov/arcgis/rest/services/MaritimeBoundaries/US_Maritime_Limits_Boundaries/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "Oil and Gas Infrastructure",
+                    "type": "group",
+                    "items": [
+                        {
+                            "name": "BOEM-BSEE Multi-Purpose Marine Cadastre",
+                            "type": "esri-mapServer-group",
+                            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "Maritime Infrastructure",
+                    "type": "group",
+                    "items": [
+                        {
+                            "name": "AIS Density Jan-Mar 2013",
+                            "type": "esri-mapServer",
+                            "url": "http://maritimeboundaries.noaa.gov/arcgis/rest/services/MACHC/MACHC_AIS_Density_Jan_Mar_2013_/MapServer/0"
+                        },
+                        {
+                            "name": "Intracoastal Waterway (Keys)",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/96"
+                        },
+                        {
+                            "name": "Intracoastal Waterway (East)",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/97"
+                        },
+                        {
+                            "name": "Intracoastal Waterway (West)",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/98"
+                        },
+                        {
+                            "name": "Coast Guard Stations in Florida",
+                            "type": "esri-mapServer",
+                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/FWC_GIS/MRGIS/MapServer/113"
+                        },
+                        {
+                            "name": "Commercial Port Operational Areas",
+                            "type": "esri-mapServer-group",
+                            "url": "http://maritimeboundaries.noaa.gov/arcgis/rest/services/ports_delineation/ports_delineation/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hydrography (Watersheds, Lakes, Rivers, Streams)",
+                    "type": "group",
+                    "items": [
+                        {
+                            "name": "USGS Hydrography (National Hydrography Dataset (NHD)",
+                            "type": "esri-mapServer-group",
+                            "url": "http://basemap.nationalmap.gov/arcgis/rest/services/USGSHydroNHD/MapServer"
+                        },
+                        {
+                            "name": "USGS NHD Fine Scale Data",
+                            "type": "esri-mapServer-group",
+                            "url": "http://basemap.nationalmap.gov/arcgis/rest/services/NHD_Small/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "Nautical Charting",
+                    "type": "group",
+                    "items": [
+                        {
+                            "name": "NOAA Chart Footprints",
+                            "type": "esri-mapServer-group",
+                            "url": "http://maritimeboundaries.noaa.gov/arcgis/rest/services/MACHC/MICC_ENCview/MapServer"
+                        },
+                        {
+                            "name": "NOAA Vector Nautical Charts (all scales)",
+                            "type": "esri-mapServer-group",
+                            "url": "http://maritimeboundaries.noaa.gov/arcgis/rest/services/encdirect"
+                        },
+                        {
+                            "name": "NOAA Raster Nautical Charts",
+                            "type": "esri-mapServer",
+                            "url": "http://maritimeboundaries.noaa.gov/arcgis/rest/services/RNC/NOAA_RNC/MapServer/3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
