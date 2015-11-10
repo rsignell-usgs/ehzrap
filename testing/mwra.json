@@ -15,7 +15,8 @@
                         "COLORSCALERANGE": "6.00,12.00",
                         "NUMCONTOURS": "50",
                         "STYLES": "filledcontours_jet",
-                        "TIME": "2015-10-20T00:00:00.000Z"
+                        "TIME": "2015-10-20T00:00:00.000Z",
+                        "VERSION": "1.1.1"
                     }
                 }
             ]
