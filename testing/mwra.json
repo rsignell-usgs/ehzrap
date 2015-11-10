@@ -2,6 +2,7 @@
     "catalog": [
         {
             "name": "MWRA Datasets",
+            "isOpen": true,
             "type": "group",
             "items": [
                 {
@@ -18,5 +19,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "isOpen": true
 }
