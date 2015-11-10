@@ -1,0 +1,22 @@
+{
+    "catalog": [
+        {
+            "name": "MWRA Datasets",
+            "type": "group",
+            "items": [
+                {
+                    "name": "MWRA WQ-FVCOM",
+                    "type": "wms",
+                    "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
+                    "layers": "DO",
+                    "styles": "filledcontours_jet",
+                    "parameters": {
+                        "COLORSCALERANGE": "6.00,12.00",
+                        "NUMCONTOURS": "50",
+                        "TIME": "2015-10-20T00:00:00.000Z"
+                    }
+                }
+            ]
+        }
+    ]
+}
