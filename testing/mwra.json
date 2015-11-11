@@ -9,7 +9,7 @@
                     "name": "MWRA WQ-FVCOM",
                     "isEnabled": true,
                     "type": "wms",
-                    "zoomTo: "true",
+                    "zoomTo": "true",
                     "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
                     "layers": "DO",
                     "parameters": {
