@@ -1,4 +1,10 @@
 {
+    "initialCamera": {
+    "west": -72.07692081488644,
+    "south": 41.201720345027695,
+    "east": -68.93917805338461,
+    "north": 43.00426508306371
+    },
     "catalog": [
         {
             "name": "MWRA Datasets",
