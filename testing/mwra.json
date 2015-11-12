@@ -15,14 +15,13 @@
                     "name": "MWRA WQ-FVCOM",
                     "isEnabled": true,
                     "type": "wms",
-                    "zoomTo": "true",
                     "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
                     "layers": "DO",
                     "parameters": {
-                        "COLORSCALERANGE": "6.00,12.00",
+                        "COLORSCALERANGE": "6.00,10.00",
                         "NUMCONTOURS": "50",
                         "styles": "filledcontours_jet",
-                        "TIME": "2015-10-20T00:00:00.000Z",
+                        "TIME": "2004-10-14T00:00:00.000Z",
                         "VERSION": "1.1.1"
                     }
                 }
