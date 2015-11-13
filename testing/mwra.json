@@ -12,14 +12,28 @@
             "type": "group",
             "items": [
                 {
-                    "name": "MWRA WQ-FVCOM",
+                    "name": "Dissolved Oxygen",
                     "isEnabled": true,
                     "type": "wms",
-                    "isOpen": true,
                     "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
                     "layers": "DO",
                     "parameters": {
                         "COLORSCALERANGE": "7.00,9.00",
+                        "NUMCONTOURS": "40",
+                        "styles": "filledcontours_jet",
+                        "TIME": "2004-10-14T00:00:00.000Z",
+                        "elevation": "29",
+                        "VERSION": "1.1.1"
+                    }
+                },
+                {
+                    "name": "Salinity",
+                    "isEnabled": false,
+                    "type": "wms",
+                    "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
+                    "layers": "salinity",
+                    "parameters": {
+                        "COLORSCALERANGE": "31.00,33.00",
                         "NUMCONTOURS": "40",
                         "styles": "filledcontours_jet",
                         "TIME": "2004-10-14T00:00:00.000Z",
