@@ -16,40 +16,42 @@
     "catalog": [
         {
             "name": "Storm Response Planning",
+             "isOpen": true,
             "type": "group",
             "items": [
                 {
                     "name": "Coastal Ocean Forecast Systems",
+                     "isOpen": true,
                     "type": "group",
-                    "items": [
-                                       {
-                    "name": "Water Levels from NECOFS GOM3 Forecast",
-                    "isEnabled": true,
-                    "type": "wms",
-                    "url": "http://sci-wms.whoi.edu/wms/datasets/necofs_gom3_forecast",
-                    "layers": "zeta",
-                    "parameters": {
-                        "COLORSCALERANGE": "-3.00,3.0",
-                        "NUMCONTOURS": "40",
-                        "styles": "filledcontours_jet",
-                        "TIME": "2015-12-02T00:00:00.000Z",
-                        "VERSION": "1.1.1"
+                        "items": [
+                                           {
+                        "name": "Water Levels from ESOFS Forecast",
+                        "isEnabled": true,
+                        "type": "wms",
+                        "url": "http://sci-wms.whoi.edu/wms/datasets/noaa_estofs_forecast",
+                        "layers": "zeta",
+                        "parameters": {
+                            "COLORSCALERANGE": "-3.00,3.0",
+                            "NUMCONTOURS": "40",
+                            "styles": "filledcontours_jet",
+                            "TIME": "2015-12-02T00:00:00.000Z",
+                            "VERSION": "1.1.1"
+                        }
+                    },   {
+                        "name": "Salinity",
+                        "isEnabled": false,
+                        "type": "wms",
+                        "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
+                        "layers": "salinity",
+                        "parameters": {
+                            "COLORSCALERANGE": "31.00,33.00",
+                            "NUMCONTOURS": "40",
+                            "styles": "filledcontours_jet",
+                            "TIME": "2004-10-14T00:00:00.000Z",
+                            "elevation": "29",
+                            "VERSION": "1.1.1"
+                        }
                     }
-                },   {
-                    "name": "Salinity",
-                    "isEnabled": false,
-                    "type": "wms",
-                    "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
-                    "layers": "salinity",
-                    "parameters": {
-                        "COLORSCALERANGE": "31.00,33.00",
-                        "NUMCONTOURS": "40",
-                        "styles": "filledcontours_jet",
-                        "TIME": "2004-10-14T00:00:00.000Z",
-                        "elevation": "29",
-                        "VERSION": "1.1.1"
-                    }
-                }
                     ]
                 },
 
