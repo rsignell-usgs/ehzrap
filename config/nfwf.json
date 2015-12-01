@@ -19,21 +19,40 @@
             "type": "group",
             "items": [
                 {
-                    "name": "Coastal Ocean Observing Systems",
+                    "name": "Coastal Ocean Forecast Systems",
                     "type": "group",
                     "items": [
-                        {
-                            "name": "GCOOS In-Situ Sensors",
-                            "type": "esri-mapServer-group",
-                            "url": "http://products.gcoos.org/arcgis/rest/services/Stations/GoM_Sensors/MapServer"
-                        },
-                        {
-                            "name": "SECOORA In-Situ Observations and Biological/Habitats",
-                            "type": "esri-mapServer-group",
-                            "url": "http://ocean.floridamarine.org/arcgis/rest/services/Projects_Other/SECOORA_BioHab/MapServer"
-                        }
+                                       {
+                    "name": "Water Levels from NECOFS GOM3 Forecast",
+                    "isEnabled": true,
+                    "type": "wms",
+                    "url": "http://sci-wms.whoi.edu/wms/datasets/necofs_gom3_forecast",
+                    "layers": "zeta",
+                    "parameters": {
+                        "COLORSCALERANGE": "-3.00,3.0",
+                        "NUMCONTOURS": "40",
+                        "styles": "filledcontours_jet",
+                        "TIME": "2015-12-02T00:00:00.000Z",
+                        "VERSION": "1.1.1"
+                    }
+                },   {
+                    "name": "Salinity",
+                    "isEnabled": false,
+                    "type": "wms",
+                    "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
+                    "layers": "salinity",
+                    "parameters": {
+                        "COLORSCALERANGE": "31.00,33.00",
+                        "NUMCONTOURS": "40",
+                        "styles": "filledcontours_jet",
+                        "TIME": "2004-10-14T00:00:00.000Z",
+                        "elevation": "29",
+                        "VERSION": "1.1.1"
+                    }
+                }
                     ]
                 },
+
                 {
                     "name": "Weather",
                     "type": "group",
