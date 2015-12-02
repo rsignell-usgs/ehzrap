@@ -15,7 +15,7 @@
                     "name": "Dissolved Oxygen",
                     "isEnabled": true,
                     "type": "wms",
-                    "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
+                    "url": "http://www.smast.umassd.edu:7002/wms/datasets/wq",
                     "layers": "DO",
                     "parameters": {
                         "COLORSCALERANGE": "7.00,9.00",
@@ -30,7 +30,7 @@
                     "name": "Salinity",
                     "isEnabled": false,
                     "type": "wms",
-                    "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
+                    "url": "http://www.smast.umassd.edu:7002/wms/datasets/wq",
                     "layers": "salinity",
                     "parameters": {
                         "COLORSCALERANGE": "31.00,33.00",
