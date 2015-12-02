@@ -32,8 +32,8 @@
                         "layers": "surf_el",
                         "parameters": {
                             "COLORSCALERANGE": "-3.00,3.0",
-                            "NUMCONTOURS": "40",
-                            "styles": "filledcontours_jet",
+                            "NUMCOLORBANDS": "40",
+                            "styles": "boxfill%2Falg2",
                             "TIME": "2015-12-02T00:00:00.000Z",
                             "VERSION": "1.1.1"
                         }
