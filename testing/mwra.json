@@ -15,7 +15,7 @@
                     "name": "Dissolved Oxygen",
                     "isEnabled": true,
                     "type": "wms",
-                    "url": "http://dev.tampabaymap.org:9000/proxy/http://www.smast.umassd.edu:7002/wms/datasets/wq",
+                    "url": "http://www.smast.umassd.edu:7002/wms/datasets/wq",
                     "layers": "DO",
                     "parameters": {
                         "COLORSCALERANGE": "7.00,9.00",
@@ -30,7 +30,7 @@
                     "name": "Salinity",
                     "isEnabled": false,
                     "type": "wms",
-                    "url": "http://dev.tampabaymap.org:9000/proxy/http://www.smast.umassd.edu:7002/wms/datasets/wq",
+                    "url": "http://www.smast.umassd.edu:7002/wms/datasets/wq",
                     "layers": "salinity",
                     "parameters": {
                         "COLORSCALERANGE": "31.00,33.00",
