@@ -1,0 +1,31 @@
+{
+    "initialCamera": {
+    "west": -85.3,
+    "south": 29.58,
+    "east": -84.7,
+    "north": 29.9
+    },
+    "catalog": [
+        {
+            "name": "FL Vdatum tides",
+            "isOpen": true,
+            "type": "group",
+            "items": [
+                {
+                    "name": "Depth-Averaged Current Vectors",
+                    "isEnabled": true,
+                    "type": "wms",
+                    "url": "http://sci-wms.whoi.edu/wms/datasets/fl_sab_tides",
+                    "layers": "u,v",
+                    "parameters": {
+                        "VECTORSCALE": "4",
+                        "NUMCONTOURS": "40",
+                        "styles": "vectors_jet",
+                        "VERSION": "1.1.1"
+                    }
+                }
+            ]
+        }
+    ],
+    "isOpen": true
+}
