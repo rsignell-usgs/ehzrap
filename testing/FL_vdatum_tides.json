@@ -18,10 +18,10 @@
                     "url": "http://sci-wms.whoi.edu/wms/datasets/fl_sab_tides",
                     "layers": "u,v",
                     "parameters": {
-                        "VECTORSCALE": "4",
-                        "NUMCONTOURS": "40",
+                        "VECTORSCALE": "1",
                         "styles": "vectors_jet",
-                        "VERSION": "1.1.1"
+                        "VERSION": "1.1.1",
+                        "time": "2015-12-02T22:00:00Z"
                     }
                 }
             ]
