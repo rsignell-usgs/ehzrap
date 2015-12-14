@@ -1,4 +1,11 @@
 {
+       "corsDomains": [
+        "corsproxy.com",
+        "umassd.edu",
+        "whoi.edu",
+        "noaa.gov",
+        "usgs.gov"
+    ],
     "initialCamera": {
     "west": -72.07692081488644,
     "south": 41.201720345027695,
