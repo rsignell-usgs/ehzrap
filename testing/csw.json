@@ -7,7 +7,7 @@
         {
           "name": "geoport.whoi.edu",
           "type": "csw",
-          "url": "http://geoport.whoi.edu/csw?service=CSW&version=2.0.2&request=GetCapabilities"
+          "url": "http://geoport.whoi.edu/csw"
         },
         {
           "name": "marlin.csiro.au",
