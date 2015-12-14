@@ -10,7 +10,7 @@
         "east": -60.695,
         "north": 46.379
     },
-    "baseMapName": "Positron (Light)",
+    "baseMapName": "Bing Maps Roads",
     "initialViewerMode": "3d",
     "services": [],
     "catalog": [
@@ -28,7 +28,7 @@
                         "name": "Water Levels from NCOM Region 1 Forecast",
                         "isEnabled": true,
                         "type": "wms",
-                        "url": "http://dev.tampabaymap.org/proxy/http://ecowatch.ncddc.noaa.gov/thredds/wms/ncom/ncom_reg1_agg/NCOM_Region_1_Aggregation_best.ncd",
+                        "url": "http://ecowatch.ncddc.noaa.gov/thredds/wms/ncom/ncom_reg1_agg/NCOM_Region_1_Aggregation_best.ncd",
                         "layers": "surf_el",
                         "parameters": {
                             "COLORSCALERANGE": "-3.00,3.0",
