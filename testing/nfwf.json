@@ -1,7 +1,7 @@
 {
     "corsDomains" : [
         "whoi.edu",
-        "noaa.gov",
+        "ecowatch.ncddc.noaa.gov",
         "corsproxy.com",
         "programs.communications.gov.au",
         "www.asris.csiro.au"
