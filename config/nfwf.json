@@ -40,7 +40,7 @@
                     },                     
                     {
                         "name": "Water Levels from ESTOFS Forecast",
-                        "isEnabled": true,
+                        "isEnabled": false,
                         "type": "wms", 
                         "url": "http://sci-wms.whoi.edu/wms/datasets/estofs",
                         "layers": "zeta",
