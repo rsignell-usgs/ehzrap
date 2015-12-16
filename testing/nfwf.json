@@ -30,7 +30,7 @@
                         "name": "Water Levels from NCOM Region 1 Forecast",
                         "isEnabled": false,
                         "type": "wms", 
-                        "url": "http://ecowatch.ncddc.noaa.gov/thredds/wms/ncom/ncom_reg1_agg/NCOM_Region_1_Aggregation_best.ncd",
+                        "url": "http://comt.sura.org/proxy_3001/proxy/ecowatch.ncddc.noaa.gov/thredds/wms/ncom/ncom_reg1_agg/NCOM_Region_1_Aggregation_best.ncd",
                         "layers": "surf_el",
                         "parameters": {
                             "COLORSCALERANGE": "-3.00,3.0",
