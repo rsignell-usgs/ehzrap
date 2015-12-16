@@ -14,7 +14,7 @@
     },
     "baseMapName": "Bing Maps Roads",
     "initialViewerMode": "3d",
-    "services": [],
+    "services": [], 
     "catalog": [
         {
             "name": "Storm Response Planning",
