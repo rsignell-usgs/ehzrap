@@ -1,0 +1,87 @@
+{
+    "corsDomains" : [
+        "corsproxy.com",
+        "programs.communications.gov.au",
+        "www.asris.csiro.au"
+    ],
+    "homeCamera": {
+        "west": -81.541,
+        "south": 32.233,
+        "east": -60.695,
+        "north": 46.379
+    },
+    "baseMapName": "Bing Maps Roads",
+    "initialViewerMode": "3d",
+    "services": [],
+    "catalog": [
+        {
+            "name": "Storm Response Planning",
+             "isOpen": true,
+            "type": "group",
+            "items": [
+                {
+                    "name": "Coastal Ocean Forecast Systems",
+                     "isOpen": true,
+                    "type": "group",
+                        "items": [
+                    {
+                        "name": "Water Levels from NCOM Region 1 Forecast",
+                        "isEnabled": false,
+                        "type": "wms", 
+                        "url": "http://comt.sura.org/proxy_3001/proxy/ecowatch.ncddc.noaa.gov/thredds/wms/ncom/ncom_reg1_agg/NCOM_Region_1_Aggregation_best.ncd",
+                        "layers": "surf_el",
+                        "parameters": {
+                            "COLORSCALERANGE": "-3.00,3.0",
+                            "NUMCOLORBANDS": "40",
+                            "styles": "boxfill/alg2",
+                            "TIME": "2012-10-30T00:00:00.000Z",
+                            "VERSION": "1.1.1"
+                        }
+                    },                     
+                    {
+                        "name": "Water Levels from ESTOFS Forecast",
+                        "isEnabled": false,
+                        "type": "wms", 
+                        "url": "http://sci-wms.whoi.edu/wms/datasets/estofs",
+                        "layers": "zeta",
+                        "parameters": {
+                            "COLORSCALERANGE": "-3.00,3.0",
+                            "NUMCONTOURS": "40",
+                            "styles": "filledcontours_jet",
+                            "VERSION": "1.1.1"
+                        }
+                    },
+                    {
+                        "name": "Water Levels from NYOFS Forecast",
+                        "isEnabled": false,
+                        "type": "wms", 
+                        "url": "http://comt.sura.org/proxy_3001/proxy/opendap.co-ops.nos.noaa.gov/thredds/wms/NYOFS/fmrc/Aggregated_7_day_NYOFS_Fields_Forecast_best.ncd",
+                        "layers": "zeta",
+                        "parameters": {
+                            "COLORSCALERANGE": "-1.00,1.0",
+                            "NUMCOLORBANDS": "40",
+                            "styles": "boxfill/alg2",
+                            "TIME": "2015-12-16T17:00:00.000Z",
+                            "VERSION": "1.1.1"
+                        }
+                    },{
+                        "name": "Salinity",
+                        "isEnabled": false,
+                        "type": "wms",
+                        "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
+                        "layers": "salinity",
+                        "parameters": {
+                            "COLORSCALERANGE": "31.00,33.00",
+                            "NUMCONTOURS": "40",
+                            "styles": "filledcontours_jet",
+                            "TIME": "2004-10-14T00:00:00.000Z",
+                            "elevation": "29",
+                            "VERSION": "1.1.1"
+                        }
+                    }
+                    ]
+                }
+            ]
+        }
+    ]
+}
