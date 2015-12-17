@@ -1,7 +1,6 @@
 {
     "corsDomains" : [
         "whoi.edu",
-        "ecowatch.ncddc.noaa.gov",
         "corsproxy.com",
         "programs.communications.gov.au",
         "www.asris.csiro.au"
@@ -30,7 +29,7 @@
                         "name": "Water Levels from NCOM Region 1 Forecast",
                         "isEnabled": false,
                         "type": "wms", 
-                        "url": "http://comt.sura.org/proxy_3001/proxy/ecowatch.ncddc.noaa.gov/thredds/wms/ncom/ncom_reg1_agg/NCOM_Region_1_Aggregation_best.ncd",
+                        "url": "http://ecowatch.ncddc.noaa.gov/thredds/wms/ncom/ncom_reg1_agg/NCOM_Region_1_Aggregation_best.ncd",
                         "layers": "surf_el",
                         "parameters": {
                             "COLORSCALERANGE": "-3.00,3.0",
@@ -57,7 +56,7 @@
                         "name": "Water Levels from NYOFS Forecast",
                         "isEnabled": false,
                         "type": "wms", 
-                        "url": "http://comt.sura.org/proxy_3001/proxy/opendap.co-ops.nos.noaa.gov/thredds/wms/NYOFS/fmrc/Aggregated_7_day_NYOFS_Fields_Forecast_best.ncd",
+                        "url": "http://opendap.co-ops.nos.noaa.gov/thredds/wms/NYOFS/fmrc/Aggregated_7_day_NYOFS_Fields_Forecast_best.ncd",
                         "layers": "zeta",
                         "parameters": {
                             "COLORSCALERANGE": "-1.00,1.0",
