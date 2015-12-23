@@ -15,7 +15,8 @@
                     "name": "Jupiter",
                     "isEnabled": true,
                     "type": "wms",
-                    "url": "http://planetarymaps.usgs.gov/cgi-bin/mapserv?map=/maps/jupiter/io_simp_cyl.map"
+                    "url": "http://planetarymaps.usgs.gov/cgi-bin/mapserv?map=/maps/jupiter/io_simp_cyl.map",
+                    "layers": "SSI_VGR_color"
                     }
             ]
         }
