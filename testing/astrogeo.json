@@ -1,4 +1,10 @@
 {
+    "corsDomains" : [
+        "usgs.gov",
+        "corsproxy.com",
+        "programs.communications.gov.au",
+        "www.asris.csiro.au"
+    ],
     "initialCamera": {
     "west": -72.07692081488644,
     "south": 41.201720345027695,
