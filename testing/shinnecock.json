@@ -16,7 +16,7 @@
                     "isEnabled": true,
                     "type": "wms",
                     "url": "http://sci-wms.whoi.edu/wms/datasets/shinnecock_inlet",
-                    "layers": "u,v",
+                    "LAYERS": "u,v",
                     "parameters": {
                         "vectorscale": "1.0",
                         "styles": "vectors_jet",
