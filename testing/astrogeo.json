@@ -13,11 +13,12 @@
         "north": 90
     },
     "catalog": [{
-        "name": "AstroGeo Datasets",
+        "name": "USGS Io Galileo",
         "isOpen": true,
         "type": "group",
-        "items": [{
-            "name": "Jupiter",
+        "items": [
+            {
+            "name": "SSI_VGR_color",
             "isEnabled": true,
             "type": "wms",
             "opacity": 1,
@@ -28,7 +29,21 @@
             "metadataUrl": "http://planetarymaps.usgs.gov/cgi-bin/mapserv?map=/maps/jupiter/io_simp_cyl.map&service=WMS&version=1.3.0&request=GetCapabilities",
             "layers": "SSI_VGR_color",
             "tilingScheme": "geographic"
-        }]
+            },
+            {
+            "name": "SSI_VGR_bw",
+            "isEnabled": true,
+            "type": "wms",
+            "opacity": 1,
+            "url": "http://planetarymaps.usgs.gov/cgi-bin/mapserv",
+            "parameters": {
+                "map": "/maps/jupiter/io_simp_cyl.map"
+            },
+            "metadataUrl": "http://planetarymaps.usgs.gov/cgi-bin/mapserv?map=/maps/jupiter/io_simp_cyl.map&service=WMS&version=1.3.0&request=GetCapabilities",
+            "layers": "SSI_VGR_bw",
+            "tilingScheme": "geographic"
+            }        
+        ]
     }],
     "isOpen": true
 }
