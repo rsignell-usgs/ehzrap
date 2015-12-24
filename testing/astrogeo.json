@@ -13,7 +13,7 @@
         "north": 90
     },
     "catalog": [{
-        "name": "USGS Io Galileo",
+        "name": "USGS Astrogeology: Io Galileo",
         "isOpen": true,
         "type": "group",
         "items": [
