@@ -32,7 +32,7 @@
             },
             {
             "name": "SSI_VGR_bw",
-            "isEnabled": true,
+            "isEnabled": false,
             "type": "wms",
             "opacity": 1,
             "url": "http://planetarymaps.usgs.gov/cgi-bin/mapserv",
