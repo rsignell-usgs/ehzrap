@@ -19,7 +19,7 @@
             "name": "Jupiter",
             "isEnabled": true,
             "type": "wms",
-            "opacity": 100,
+            "opacity": 1,
             "url": "http://planetarymaps.usgs.gov/cgi-bin/mapserv",
             "parameters": {
                 "map": "/maps/jupiter/io_simp_cyl.map"
