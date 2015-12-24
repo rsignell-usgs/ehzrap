@@ -1,31 +1,32 @@
 {
-    "corsDomains" : [
+    "corsDomains": [
         "usgs.gov",
         "corsproxy.com",
         "programs.communications.gov.au",
         "www.asris.csiro.au"
     ],
     "initialCamera": {
-    "west": -72.07692081488644,
-    "south": 41.201720345027695,
-    "east": -68.93917805338461,
-    "north": 43.00426508306371
+        "west": -72.07692081488644,
+        "south": 41.201720345027695,
+        "east": -68.93917805338461,
+        "north": 43.00426508306371
     },
-    "catalog": [
-        {
-            "name": "AstroGeo Datasets",
-            "isOpen": true,
-            "type": "group",
-            "items": [
-                {
-                    "name": "Jupiter",
-                    "isEnabled": true,
-                    "type": "wms",
-                    "url": "http://planetarymaps.usgs.gov/cgi-bin/mapserv?map=/maps/jupiter/io_simp_cyl.map",
-                    "layers": "SSI_VGR_color"
-                    }
-            ]
-        }
-    ],
+    "catalog": [{
+        "name": "AstroGeo Datasets",
+        "isOpen": true,
+        "type": "group",
+        "items": [{
+            "name": "Jupiter",
+            "isEnabled": true,
+            "type": "wms",
+            "url": "http://planetarymaps.usgs.gov/cgi-bin/mapserv",
+            "parameters": {
+                "map": "/maps/jupiter/io_simp_cyl.map"
+            },
+            "metadataUrl": "http://planetarymaps.usgs.gov/cgi-bin/mapserv?map=/maps/jupiter/io_simp_cyl.map&service=WMS&version=1.3.0&request=GetCapabilities",
+            "layers": "SSI_VGR_color",
+            "tilingScheme": "geographic"
+        }]
+    }],
     "isOpen": true
 }
