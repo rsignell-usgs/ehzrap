@@ -1,6 +1,7 @@
 {
     "corsDomains": [
         "usgs.gov",
+        "whoi.edu",
         "corsproxy.com",
         "programs.communications.gov.au",
         "www.asris.csiro.au"
