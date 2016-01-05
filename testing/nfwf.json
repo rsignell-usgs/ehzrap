@@ -26,22 +26,8 @@
                     "type": "group",
                         "items": [
                     {
-                        "name": "Water Levels from NCOM Region 1 Forecast",
-                        "isEnabled": false,
-                        "type": "wms", 
-                        "url": "http://comt.sura.org/proxy_3001/proxy/ecowatch.ncddc.noaa.gov/thredds/wms/ncom/ncom_reg1_agg/NCOM_Region_1_Aggregation_best.ncd",
-                        "layers": "surf_el",
-                        "parameters": {
-                            "COLORSCALERANGE": "-3.00,3.0",
-                            "NUMCOLORBANDS": "40",
-                            "styles": "boxfill/alg2",
-                            "TIME": "2012-10-30T00:00:00.000Z",
-                            "VERSION": "1.1.1"
-                        }
-                    },                     
-                    {
                         "name": "Water Levels from ESTOFS Forecast",
-                        "isEnabled": false,
+                        "isEnabled": true,
                         "type": "wms", 
                         "url": "http://sci-wms.whoi.edu/wms/datasets/estofs",
                         "layers": "zeta",
@@ -66,7 +52,7 @@
                             "VERSION": "1.1.1"
                         }
                     },{
-                        "name": "Salinity",
+                        "name": "Salinity from FVCOM MWRA Simulations",
                         "isEnabled": false,
                         "type": "wms",
                         "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
@@ -75,8 +61,7 @@
                             "COLORSCALERANGE": "31.00,33.00",
                             "NUMCONTOURS": "40",
                             "styles": "filledcontours_jet",
-                            "TIME": "2004-10-14T00:00:00.000Z",
-                            "elevation": "29",
+                            "elevation": "0",
                             "VERSION": "1.1.1"
                         }
                     }
