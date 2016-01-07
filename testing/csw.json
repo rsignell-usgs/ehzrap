@@ -1,4 +1,10 @@
 {
+    "corsDomains" : [
+        "noaa.gov",
+        "corsproxy.com",
+        "programs.communications.gov.au",
+        "www.asris.csiro.au"
+    ],
   "catalog": [
     {
       "name": "CSW",
