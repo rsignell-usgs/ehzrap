@@ -18,11 +18,11 @@
                     "url": "http://sci-wms.whoi.edu/wms/datasets/use_fmrc_coawst_4_use_best",
                     "layers": "u,v",
                     "parameters": {
-                        "vectorscale": "2.0",
-                        "vectorskip": "2",
+                        "vectorscale": 2.0,
+                        "vectorskip": 2,
                         "styles": "vectors_jet",
                         "version": "1.1.1",
-                        "elevation": "15"
+                        "elevation": 15
                     }
                 }
             ]
