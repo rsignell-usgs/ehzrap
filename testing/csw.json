@@ -17,22 +17,17 @@
         {
           "name": "NGDC Geoportal",
           "type": "csw",
-          "url": "http://www.ngdc.noaa.gov/geoportal/csw"
+          "url": "http://comt.sura.org/proxy_3001/proxy/http://www.ngdc.noaa.gov/geoportal/csw"
         },
         {
           "name": "NODC Geoportal",
           "type": "csw",
-          "url": "http://data.nodc.noaa.gov/geoportal/csw"
+          "url": "http://comt.sura.org/proxy_3001/proxy/http://data.nodc.noaa.gov/geoportal/csw"
         },
         {
           "name": "NRCAN",
           "type": "csw",
           "url": "http://geodiscover.cgdi.ca/wes/serviceManagerCSW/csw"
-        },
-        {
-          "name": "USGS Woods Hole GI_CAT",
-          "type": "csw",
-          "url": "http://geoport.whoi.edu/gi-cat/services/cswiso"
         },
         {
           "name": "USGS CIDA Geonetwork",
