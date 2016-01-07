@@ -36,11 +36,6 @@
           "url": "http://geodiscover.cgdi.ca/wes/serviceManagerCSW/csw"
         },
         {
-          "name": "USGS Woods Hole GI_CAT",
-          "type": "csw",
-          "url": "http://geoport.whoi.edu/gi-cat/services/cswiso"
-        },
-        {
           "name": "USGS CIDA Geonetwork",
           "type": "csw",
           "url": "http://cida.usgs.gov/gdp/geonetwork/srv/en/csw"
