@@ -1,0 +1,26 @@
+{
+    "catalog": [
+        {
+          "name": "USF_FVCOM",
+          "type": "group",
+          "items": [
+            {
+              "name": "FVCOM Velocity",
+              "type": "wms",
+              "url": "http://sci-wms.whoi.edu/wms/datasets/usf_fvcom",
+              "description": "...",
+              "abstract": "Surface elocity vectors from FVCOM",
+              "layers": "u,v",
+              "getFeatureInfoAsGeoJson": false,
+              "parameters": {
+                "VECTORSCALE": "4.0",
+                "FORMAT": "image/png",
+                "STYLES": "vectors_jet",
+                "VERSION": "1.1.1",
+                "ELEVATION": "0.0"
+              }
+            }
+          ]
+        }
+    ]
+}
