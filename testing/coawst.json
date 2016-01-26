@@ -20,6 +20,7 @@
                     "parameters": {
                         "vectorscale": 2.0,
                         "vectorskip": 2,
+                        "tiled": false,
                         "styles": "vectors_jet",
                         "version": "1.1.1",
                         "elevation": 15
