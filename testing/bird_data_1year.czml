@@ -1491,7 +1491,9 @@
                 255
             ]},
             "pixelSize": 10,
-            "show": true
+            "show": true,
+            "resolution": 86400.0
+
         },
         "id": "flycatcher",
         "availability": "2015-01-01/2015-12-31"
