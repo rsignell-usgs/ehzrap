@@ -5,7 +5,7 @@
         "clock": {
             "step": "SYSTEM_CLOCK_MULTIPLIER",
             "range": "LOOP_STOP",
-            "multiplier": 21600,
+            "multiplier": 2160000,
             "interval": "2015-01-01/2015-12-31",
             "currentTime": "2015-01-01"
         }
@@ -1473,29 +1473,18 @@
             5.34514324264586,
             0
         ]},
-        "path": {
-            "width": 1,
-            "material": {"solidColor": {"color": {"rgba": [
-                0,
-                0,
-                255,
-                255
-            ]}}},
-            "show": true
-        },
         "point": {
             "color": {"rgba": [
-                0,
-                0,
                 255,
+                255,
+                0,
                 255
             ]},
             "pixelSize": 10,
-            "show": true,
-            "resolution": 86400.0
-
+            "show": true
         },
-        "id": "flycatcher",
-        "availability": "2015-01-01/2015-12-31"
+        "id": "Acadian_Flycatcher",
+        "availability": "2015-01-01/2015-12-31",
+        "description": "Acadian_Flycatcher"
     }
 ]
