@@ -1,0 +1,46 @@
+{
+    "initialCamera": {
+    "west": -97.07692081488644,
+    "south": 18.201720345027695,
+    "east": -79.93917805338461,
+    "north": 31.00426508306371
+    },
+    "catalog": [
+        {
+            "name": "COMT Datasets",
+            "isOpen": true,
+            "type": "group",
+            "items": [
+                {
+                    "name": "ADCIRC Ike 3D Wave Water Levels",
+                    "isEnabled": true,
+                    "type": "wms",
+                    "url": "http://sci-wms.whoi.edu/wms/datasets/adcirc_ike_3d_waves",
+                    "layers": "zeta",
+                    "parameters": {
+                        "COLORSCALERANGE": "-2.00,5.00",
+                        "NUMCONTOURS": "40",
+                        "styles": "filledcontours_jet",
+                        "VERSION": "1.1.1"
+                    }
+                },
+                {
+                    "name": "Salinity",
+                    "isEnabled": false,
+                    "type": "wms",
+                    "url": "http://www.smast.umassd.edu:7002/wms/datasets/wq",
+                    "layers": "salinity",
+                    "parameters": {
+                        "COLORSCALERANGE": "31.00,33.00",
+                        "NUMCONTOURS": "40",
+                        "styles": "filledcontours_jet",
+                        "TIME": "2004-10-14T00:00:00.000Z",
+                        "elevation": "29",
+                        "VERSION": "1.1.1"
+                    }
+                }
+            ]
+        }
+    ],
+    "isOpen": true
+}
