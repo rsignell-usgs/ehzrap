@@ -18,7 +18,7 @@
                     "url": "http://sci-wms.whoi.edu/wms/datasets/adcirc_ike_3d_waves",
                     "layers": "zeta",
                     "parameters": {
-                        "COLORSCALERANGE": "-2.00,5.00",
+                        "COLORSCALERANGE": "0.00,5.00",
                         "NUMCONTOURS": "40",
                         "styles": "filledcontours_jet",
                         "VERSION": "1.1.1"
