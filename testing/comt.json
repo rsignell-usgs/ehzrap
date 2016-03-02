@@ -12,10 +12,10 @@
             "type": "group",
             "items": [
                 {
-                    "name": "ADCIRC Ike 3D Wave Water Levels",
+                    "name": "ADCIRC Ike 2D Wave Water Levels",
                     "isEnabled": true,
                     "type": "wms",
-                    "url": "http://sci-wms.whoi.edu/wms/datasets/adcirc_ike_3d_waves",
+                    "url": "http://sci-wms.whoi.edu/wms/datasets/adcirc_ike_2d_waves",
                     "layers": "zeta",
                     "parameters": {
                         "COLORSCALERANGE": "0.00,5.00",
