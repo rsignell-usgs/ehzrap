@@ -33,8 +33,8 @@
                         "layers": "air",
                         "parameters": {
                             "COLORSCALERANGE": "230,310",
-                            "NUMCONTOURS": "40",
-                            "styles": "filledcontours_jet",
+                            "NUMCOLORBANDS": "40",
+                            "styles": "boxfill/rainbow",
                             "VERSION": "1.1.1"
                         }
                     },
