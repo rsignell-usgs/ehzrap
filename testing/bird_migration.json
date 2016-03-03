@@ -1,0 +1,72 @@
+{
+    "corsDomains" : [
+        "whoi.edu",
+        "corsproxy.com",
+        "programs.communications.gov.au",
+        "www.asris.csiro.au"
+    ],
+    "homeCamera": {
+        "west": -160,
+        "south": -20,
+        "east": -30,
+        "north": 60
+    },
+    "baseMapName": "Bing Maps Roads",
+    "initialViewerMode": "2d",
+    "services": [], 
+    "catalog": [
+        {
+            "name": "Bird Migration",
+             "isOpen": true,
+            "type": "group",
+            "items": [
+                {
+                    "name": "Climate Data",
+                     "isOpen": true,
+                    "type": "group",
+                        "items": [
+                    {
+                        "name": "Air Temperatures from CAMS",
+                        "isEnabled": true,
+                        "type": "wms", 
+                        "url": "http://www.esrl.noaa.gov/psd/thredds/wms/Datasets/ghcncams/air.mon.mean.nc",
+                        "layers": "air",
+                        "parameters": {
+                            "COLORSCALERANGE": "230,310",
+                            "NUMCONTOURS": "40",
+                            "styles": "filledcontours_jet",
+                            "VERSION": "1.1.1"
+                        }
+                    },
+                    {
+                        "name": "Water Levels from NYOFS Forecast",
+                        "isEnabled": false,
+                        "type": "wms", 
+                        "url": "http://opendap.co-ops.nos.noaa.gov/thredds/wms/NYOFS/fmrc/Aggregated_7_day_NYOFS_Fields_Forecast_best.ncd",
+                        "layers": "zeta",
+                        "parameters": {
+                            "COLORSCALERANGE": "-1.00,1.0",
+                            "NUMCOLORBANDS": "40",
+                            "styles": "boxfill/alg2",
+                            "VERSION": "1.1.1"
+                        }
+                    },{
+                        "name": "Salinity from FVCOM MWRA Simulations",
+                        "isEnabled": false,
+                        "type": "wms",
+                        "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
+                        "layers": "salinity",
+                        "parameters": {
+                            "COLORSCALERANGE": "31.00,33.00",
+                            "NUMCONTOURS": "40",
+                            "styles": "filledcontours_jet",
+                            "elevation": "0",
+                            "VERSION": "1.1.1"
+                        }
+                    }
+                    ]
+                }
+            ]
+        }
+    ]
+}
