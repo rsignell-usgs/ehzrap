@@ -43,7 +43,6 @@
                         "isEnabled": true,
                         "type": "czml", 
                         "url": "https://raw.githubusercontent.com/rsignell-usgs/ehzrap/master/testing/bird_migration.czml"
-                        }
                     },{
                         "name": "Salinity from FVCOM MWRA Simulations",
                         "isEnabled": false,
