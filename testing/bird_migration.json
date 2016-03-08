@@ -39,16 +39,10 @@
                         }
                     },
                     {
-                        "name": "Water Levels from NYOFS Forecast",
-                        "isEnabled": false,
-                        "type": "wms", 
-                        "url": "http://opendap.co-ops.nos.noaa.gov/thredds/wms/NYOFS/fmrc/Aggregated_7_day_NYOFS_Fields_Forecast_best.ncd",
-                        "layers": "zeta",
-                        "parameters": {
-                            "COLORSCALERANGE": "-1.00,1.0",
-                            "NUMCOLORBANDS": "40",
-                            "styles": "boxfill/alg2",
-                            "VERSION": "1.1.1"
+                        "name": "Bird Migration Data",
+                        "isEnabled": true,
+                        "type": "czml", 
+                        "url": "https://raw.githubusercontent.com/rsignell-usgs/ehzrap/master/testing/bird_migration.czml"
                         }
                     },{
                         "name": "Salinity from FVCOM MWRA Simulations",
