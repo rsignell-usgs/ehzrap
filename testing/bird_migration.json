@@ -21,12 +21,7 @@
             "type": "group",
             "items": [
                 {
-                    "name": "Climate Data",
-                     "isOpen": true,
-                    "type": "group",
-                        "items": [
-                    {
-                        "name": "Air Temperatures from CAMS",
+                        "name": "Monthly Air Temperature (NOAA/ESRL CAMS Model)",
                         "isEnabled": true,
                         "type": "wms", 
                         "url": "http://www.esrl.noaa.gov/psd/thredds/wms/Datasets/ghcncams/air.mon.mean.nc",
@@ -39,27 +34,13 @@
                         }
                     },
                     {
-                        "name": "Bird Migration Data",
+                        "name": "Bird Species Centroids (Cornell)",
                         "isEnabled": true,
                         "type": "czml", 
                         "url": "https://raw.githubusercontent.com/rsignell-usgs/ehzrap/master/testing/bird_migration.czml"
-                    },{
-                        "name": "Salinity from FVCOM MWRA Simulations",
-                        "isEnabled": false,
-                        "type": "wms",
-                        "url": "http://sci-wms.whoi.edu/wms/datasets/smast_wq",
-                        "layers": "salinity",
-                        "parameters": {
-                            "COLORSCALERANGE": "31.00,33.00",
-                            "NUMCONTOURS": "40",
-                            "styles": "filledcontours_jet",
-                            "elevation": "0",
-                            "VERSION": "1.1.1"
-                        }
                     }
                     ]
                 }
             ]
-        }
-    ]
+
 }
