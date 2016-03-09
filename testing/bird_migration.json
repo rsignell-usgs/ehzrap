@@ -1,46 +1,47 @@
 {
-    "corsDomains" : [
-        "whoi.edu",
-        "corsproxy.com",
-        "programs.communications.gov.au",
-        "www.asris.csiro.au"
-    ],
-    "homeCamera": {
-        "west": -160,
-        "south": -20,
-        "east": -30,
-        "north": 60
-    },
-    "baseMapName": "Bing Maps Roads",
-    "initialViewerMode": "2d",
-    "services": [], 
-    "catalog": [
+  "catalog": [
+    {
+      "name": "Bird Migration",
+      "type": "group",
+      "items": [
         {
-            "name": "Bird Migration",
-             "isOpen": true,
-            "type": "group",
-            "items": [
-                {
-                        "name": "Monthly Air Temperature (NOAA/ESRL CAMS Model)",
-                        "isEnabled": true,
-                        "type": "wms", 
-                        "url": "http://www.esrl.noaa.gov/psd/thredds/wms/Datasets/ghcncams/air.mon.mean.nc",
-                        "layers": "air",
-                        "parameters": {
-                            "COLORSCALERANGE": "230,310",
-                            "NUMCOLORBANDS": "40",
-                            "styles": "boxfill/rainbow",
-                            "VERSION": "1.1.1"
-                        }
-                    },
-                    {
-                        "name": "Bird Species Centroids (Cornell)",
-                        "isEnabled": true,
-                        "type": "czml", 
-                        "url": "https://raw.githubusercontent.com/rsignell-usgs/ehzrap/master/testing/bird_migration.czml"
-                    }
-                    ]
-                }
-            ]
-
+          "name": "Monthly Air Temperature (NOAA/ESRL CAMS Model)",
+          "type": "wms",
+          "url": "http://www.esrl.noaa.gov/psd/thredds/wms/Datasets/ghcncams/air.mon.mean.nc",
+          "isEnabled": true,
+          "layers": "air",
+          "parameters": {
+            "COLORSCALERANGE": "230,310",
+            "NUMCOLORBANDS": "40",
+            "VERSION": "1.1.1",
+            "styles": "boxfill/rainbow"
+          }
+        },
+        {
+          "name": "Geographic Centers of Migratory Bird Species ",
+          "type": "czml",
+          "url": "https://raw.githubusercontent.com/rsignell-usgs/ehzrap/master/testing/bird_migration.czml",
+          "isEnabled": true,
+          "description": "Geographic centers of occurrence estimated daily for 118 migratory bird species using eBird occurrence information for the combined period 2002 to 2014. Additional details on the data and methods can be found here:\nLa Sorte, F.A., Fink, D., Hochachka, W.M. & Kelling, S. (2016) Convergence of broad-scale migration strategies in terrestrial birds. Proceedings of the Royal Society of London B: Biological Sciences, 283, 20152588.",
+          "dataCustodian": "Frank A. La Sorte (fal42@cornell.edu)"
+        }
+      ],
+      "isOpen": true
+    }
+  ],
+  "corsDomains": [
+    "whoi.edu",
+    "corsproxy.com",
+    "programs.communications.gov.au",
+    "www.asris.csiro.au"
+  ],
+  "homeCamera": {
+    "west": -160,
+    "east": -30,
+    "north": 60,
+    "south": -20
+  },
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "services": []
 }
