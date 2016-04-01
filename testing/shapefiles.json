@@ -1,0 +1,40 @@
+{
+  "catalog": [
+    {
+      "name": "shapefiles",
+      "type": "group",
+      "items": [
+        {
+          "name": "WFS endpoint from Sciencebase",
+          "type": "wfs",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5342c5fce4b0aa151574a8ed",
+          "isEnabled": true,
+          "typeName": "sb:Conservation_Zone_WGS84", 
+        },
+        {
+          "name": "WFS endpoint from Sciencebase",
+          "type": "wfs",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5342c5fce4b0aa151574a8ed",
+          "isEnabled": true,
+          "typeName": "sb:Conservation_Zone_WGS84", 
+        }
+      ],
+      "isOpen": true
+    }
+  ],
+  "corsDomains": [
+    "whoi.edu",
+    "corsproxy.com",
+    "programs.communications.gov.au",
+    "www.asris.csiro.au"
+  ],
+  "homeCamera": {
+    "west": -160,
+    "east": -30,
+    "north": 60,
+    "south": -20
+  },
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "services": []
+}
