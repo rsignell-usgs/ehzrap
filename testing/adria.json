@@ -11,6 +11,7 @@
           "isEnabled": true,
           "style": "default",
           "tilematrixset": "GoogleMapsCompatible_Level7",
+          "tilematrix": 2,
           "layers": "MODIS_Aqua_Chlorophyll_A, GHRSST_L4_G1SST_Sea_Surface_Temperature"
         },
         {
