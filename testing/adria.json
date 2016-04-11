@@ -1,0 +1,41 @@
+{
+  "catalog": [
+    {
+      "name": "Adriatic Sea",
+      "type": "group",
+      "items": [
+        {
+          "name": "NASA WMTS Services",
+          "type": "wmts",
+          "url": "http://map1.vis.earthdata.nasa.gov/wmts-webmerc/wmts.cgi?SERVICE=WMTS&request=GetCapabilities",
+          "isEnabled": true,
+          "layers": "MODIS_Aqua_Chlorophyll_A, GHRSST_L4_G1SST_Sea_Surface_Temperature"
+        },
+        {
+          "name": "Geographic Centers of Migratory Bird Species ",
+          "type": "czml",
+          "url": "https://raw.githubusercontent.com/rsignell-usgs/ehzrap/master/testing/bird_migration.czml",
+          "isEnabled": false,
+          "description": "Geographic centers of occurrence estimated daily for 118 migratory bird species using eBird occurrence information for the combined period 2002 to 2014. Additional details on the data and methods can be found here:\nLa Sorte, F.A., Fink, D., Hochachka, W.M. & Kelling, S. (2016) Convergence of broad-scale migration strategies in terrestrial birds. Proceedings of the Royal Society of London B: Biological Sciences, 283, 20152588.",
+          "dataCustodian": "Frank A. La Sorte (fal42@cornell.edu)"
+        }
+      ],
+      "isOpen": true
+    }
+  ],
+  "corsDomains": [
+    "whoi.edu",
+    "corsproxy.com",
+    "programs.communications.gov.au",
+    "www.asris.csiro.au"
+  ],
+  "homeCamera": {
+    "west": 4,
+    "east": 20,
+    "north": 46,
+    "south": 39
+  },
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "services": []
+}
