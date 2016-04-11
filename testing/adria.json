@@ -9,6 +9,7 @@
           "type": "wmts",
           "url": "http://map1.vis.earthdata.nasa.gov/wmts-webmerc/wmts.cgi?SERVICE=WMTS&request=GetCapabilities",
           "isEnabled": true,
+          "style": "default",
           "layers": "MODIS_Aqua_Chlorophyll_A, GHRSST_L4_G1SST_Sea_Surface_Temperature"
         },
         {
