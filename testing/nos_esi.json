@@ -12,10 +12,10 @@
             "type": "group",
             "items": [
                 {
-                    "name": "Dissolved Oxygen",
+                    "name": "ESI_RI_CT_NY_NJ",
                     "isEnabled": true,
                     "type": "wms",
-                    "url": "http://idpgis.ncep.noaa.gov/arcgis/services/NOS_ESI/ESI_RI_CT_NY_NJ_Data/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+                    "url": "http://idpgis.ncep.noaa.gov/arcgis/services/NOS_ESI/ESI_RI_CT_NY_NJ_Data/MapServer/WMSServer"
                 },
                 {
                     "name": "Salinity",
