@@ -1,0 +1,39 @@
+{
+    "initialCamera": {
+    "west": -72.07692081488644,
+    "south": 41.201720345027695,
+    "east": -68.93917805338461,
+    "north": 43.00426508306371
+    },
+    "catalog": [
+        {
+            "name": "NOS ESI",
+            "isOpen": true,
+            "type": "group",
+            "items": [
+                {
+                    "name": "Dissolved Oxygen",
+                    "isEnabled": true,
+                    "type": "wms",
+                    "url": "http://idpgis.ncep.noaa.gov/arcgis/services/NOS_ESI/ESI_RI_CT_NY_NJ_Data/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+                },
+                {
+                    "name": "Salinity",
+                    "isEnabled": false,
+                    "type": "wms",
+                    "url": "http://www.smast.umassd.edu:7002/wms/datasets/wq",
+                    "layers": "salinity",
+                    "parameters": {
+                        "COLORSCALERANGE": "31.00,33.00",
+                        "NUMCONTOURS": "40",
+                        "styles": "filledcontours_jet",
+                        "TIME": "2004-10-14T00:00:00.000Z",
+                        "elevation": "29",
+                        "VERSION": "1.1.1"
+                    }
+                }
+            ]
+        }
+    ],
+    "isOpen": true
+}
