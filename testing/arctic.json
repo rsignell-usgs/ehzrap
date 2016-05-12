@@ -15,6 +15,7 @@
         {
             "name": "TOPAZ 12.5km model",
             "type": "group",
+            "isOpen": true,
             "items": [
                 {
                     "name": "temperature",
@@ -28,6 +29,5 @@
                 }
             ]
         }
-    ],
-    "isOpen": true
+    ]
 }
