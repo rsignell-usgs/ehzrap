@@ -1,0 +1,32 @@
+{
+    "corsDomains" : [
+        "corsproxy.com",
+        "whoi.edu"
+    ],
+    "homeCamera": {
+        "west": 10,
+        "south": 77,
+        "east": 16,
+        "north": 79
+    },
+    "initialViewerMode": "3d",
+    "services": [],
+    "catalog": [
+        {
+            "name": "Test Datasets",
+            "type": "group",
+            "items": [
+                {
+                    "name": "TOPAZ",
+                    "type": "wms",
+                    "url": "http://thredds.met.no/thredds/wms/topaz/dataset-ran-arc-day-myoceanv2-be?request=GetCapabilities&service=WMS&version=1.3.0",
+                    "layers": "temperature",
+                    "parameters": {
+                        "COLORSCALERANGE": "-2.00,8.00",
+                        "TIME": "2014-06-20T00:00:00.000Z"
+                    }
+                }
+            ]
+        }
+    ]
+}
