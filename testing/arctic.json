@@ -13,7 +13,7 @@
     "services": [],
     "catalog": [
         {
-            "name": "TOPAZ 12.5km Model",
+            "name": "TOPAZ 12.5km model",
             "type": "group",
             "items": [
                 {
